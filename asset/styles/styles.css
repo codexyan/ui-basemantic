@@ -217,3 +217,47 @@ footer .copyright {
         gap: 16px;
     }
 }
+
+@media screen and (max-width: 640px){
+    /* Header */
+    header {
+        justify-content: center;
+    }
+
+    header .logo-header .img-logo-header {
+        width: 150px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* Banner */
+    main .container-banner .wrap-banner {
+        height: 200px;
+    }
+
+    main .container-banner .wrap-banner .content-banner {
+        margin: 12px 24px;
+        top: 8%;
+    }
+
+    main .container-banner .wrap-banner .content-banner h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    main .container-banner .wrap-banner .content-banner p {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    main .container-banner .wrap-banner .content-banner .cta-banner {
+        text-decoration: none;
+        background-color: green;
+        font-size: 12px;
+        padding: 8px 16px;
+        color: white;
+    }
+
+}

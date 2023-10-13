@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 180px;
+}
+
+header .logo-header .img-logo-header {
+    width: 180px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+/* Banner */
+main {
+    margin: 0px 0px 24px 0px;
+}
+
+main .container-banner .wrap-banner {
+    height: 600px;
+}
+
+main .container-banner .wrap-banner .content-banner {
+    position: absolute;
+    margin: 12px 280px;
+    top: 25%;
+}
+
+main .container-banner .wrap-banner .content-banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    line-height: 52px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+main .container-banner .wrap-banner .content-banner p {
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 12px 0px 32px;
+}
+
+main .container-banner .wrap-banner .content-banner .cta-banner {
+    text-decoration: none;
+    background-color: green;
+    font-size: 20px;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+main .container-banner .wrap-banner .img-banner {
+    background-image: url(../img/banner/hero-1.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Footer */
+footer {
+    background-color: #138c1c;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 100px;
+}
+
+footer .container-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 24px 200px;
+    /* border: 1px solid red; */
+}
+
+footer .container-footer .footer-link {
+    flex-grow: 1;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+
+footer .container-footer .footer-link .wrap-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+footer .container-footer .footer-link .wrap-support {
+    display: flex;
+    font-display: row;
+    gap: 12px;
+}
+
+footer .container-footer .footer-link .title-link {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+footer .container-footer .footer-link p {
+    font-weight: 300;
+}
+
+footer .container-footer .img-logo-footer {
+    width: 120px;
+}
+
+footer p {
+    color: white;
+}
+
+footer .copyright {
+    /* margin: 16px; */
+    padding-top: 16px;
+}
+
+/* Responsive Mobile LG */
+@media screen and (min-width: 920px) and (max-width: 1280px) {
+    header {
+        margin: 12px 80px;
+    }
+
+    /* Banner */
+    main .container-banner .wrap-banner {
+        height: 400px;
+    }
+
+    main .container-banner .wrap-banner .content-banner {
+        margin: 12px 100px;
+        top: 15%;
+    }
+
+    main .container-banner .wrap-banner .content-banner h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    main .container-banner .wrap-banner .content-banner p {
+        font-size: 14px;
+    }
+
+    main .container-banner .wrap-banner .content-banner .cta-banner {
+        text-decoration: none;
+        background-color: green;
+        font-size: 16px;
+        padding: 12px 24px;
+        color: white;
+    }
+
+    /* Footer */
+    footer .container-footer {
+        display: flex;
+        flex-direction: row;
+        margin: 24px 80px;
+    }
+}
+
+/* Responsive Mobile MD */
+@media screen and (max-width: 920px) {
+    header {
+        margin: 12px 32px;
+    }
+
+    /* Banner */
+    main .container-banner .wrap-banner {
+        height: 350px;
+    }
+
+    main .container-banner .wrap-banner .content-banner {
+        margin: 12px 80px;
+        top: 15%;
+    }
+
+    main .container-banner .wrap-banner .content-banner h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    main .container-banner .wrap-banner .content-banner p {
+        font-size: 14px;
+    }
+
+    main .container-banner .wrap-banner .content-banner .cta-banner {
+        text-decoration: none;
+        background-color: green;
+        font-size: 16px;
+        padding: 12px 24px;
+        color: white;
+    }
+
+    /* Footer */
+    footer .container-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 24px 32px;
+        gap: 16px;
+    }
+}

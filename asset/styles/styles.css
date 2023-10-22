@@ -35,6 +35,7 @@ main {
 
 main .container-banner .wrap-banner {
     height: 600px;
+    position: relative;
 }
 
 main .container-banner .wrap-banner .content-banner {
@@ -78,6 +79,61 @@ main .container-banner .wrap-banner .img-banner {
     height: 100%;
 }
 
+/* Destinantion */
+section {
+    margin: 48px 180px;  
+}
+
+section .head-destination {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+section .head-destination .wrap-destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+
+section .head-destination .wrap-destination .item-headestination h1 {
+    color: green;
+}
+
+section .head-destination .wrap-destination .item-headestination h3 {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: green;
+}
+
+/* Card */
+section .card-destinantion {
+    display: flex;
+    gap: 16px;
+    margin: 24px 0px;
+}
+
+section .card-destinantion .card-items {
+    flex-grow: 1;
+    /* border: 1px solid green; */
+}
+
+section .card-destinantion .card-items .col-card .item-images img {
+    width: 100%;
+}
+
+section .card-destinantion .card-items .col-card .item h1 {
+    color: #404040;
+    font-size: 20px;
+}
+
+section .card-destinantion .card-items .col-card .item p {
+    font-size: 14px;
+    margin-top: 4px;
+    color: gray;
+}
 
 /* Footer */
 footer {
@@ -258,6 +314,10 @@ footer .copyright {
         font-size: 12px;
         padding: 8px 16px;
         color: white;
+    }
+
+    section {
+        margin: 20px 32px;
     }
 
 }
